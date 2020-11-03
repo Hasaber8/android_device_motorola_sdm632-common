@@ -256,9 +256,9 @@ CUSTOM_APNS_FILE := $(PLATFORM_PATH)/configs/sprint_apns.xml
 
 # Recovery
 ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab_dynamic.qcom
+TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab_dynamic.qcom
 else
-TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 endif
 
 # Root
