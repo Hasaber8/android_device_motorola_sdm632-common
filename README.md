@@ -5,4 +5,4 @@ Device configuration for Motorola SDM632 Devices
 
 Supported devices :
 
-River, Ocean, Channel
+River, Ocean, Channel, GiNNa
